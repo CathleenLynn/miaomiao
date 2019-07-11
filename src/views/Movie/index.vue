@@ -29,7 +29,6 @@ import TabBar from '@/components/TabBar';
 
 import { messageBox} from '@/components/JS'
 
-
 export default {
     name : 'Movie',
     components: {

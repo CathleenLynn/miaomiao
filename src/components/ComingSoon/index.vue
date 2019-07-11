@@ -43,7 +43,6 @@ export default {
         };
     },
     activated(){
-
         var cityId = this.$store.state.city.id;
         if(this.prevCityId === cityId) { return; }
         this.isLoading = true;
