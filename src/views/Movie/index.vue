@@ -15,11 +15,11 @@
 				    </router-link>
 			    </div>
                 <keep-alive>
-                    <router-view/>
+                    <router-view />
                 </keep-alive>
             </div>
         <TabBar></TabBar>
-        <!-- <MessageBox /> -->
+        <router-view name="detail" />
     </div>
 </template>
 
@@ -28,7 +28,6 @@ import Header from '@/components/Header';
 import TabBar from '@/components/TabBar';
 
 import { messageBox} from '@/components/JS'
-
 
 export default {
     name : 'Movie',
